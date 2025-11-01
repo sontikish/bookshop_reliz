@@ -2,3 +2,41 @@ header {
   background-color: #781D42; /* change to any color you like */
   color: white;
 }
+
+.intro {
+  background-image: url('vintage-and-antique-leather-bound-books.jpg'); /* Replace with your image path */
+  background-size: cover; /* Makes image fill the section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  height: 100vh; /* Full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  padding-left: 5%;
+}
+
+.intro-text {
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: adds dark overlay */
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.intro-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #7a0d3c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #a41252;
+}
+

@@ -1,6 +1,54 @@
 [
     {
-        "title": "Назва книги",
-        "price": "200"
+        "image": "https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/f/i/file_401_18.png",
+        "title": "Робін Слоун: Цілодобова книгарня містера Пенумбри",
+        "price": "370 грн"
+    },
+
+    {
+        "image": "https://static.yakaboo.ua/media/catalog/product/u/p/upjlxtb7ja3rwmdzq0fqxs6or5svjpfvgjlesgen.png_cr.jpg",
+        "title": "Тесс Ґеррітсен: Гра з вогнем",
+        "price": "390 грн"
+    },
+
+    {
+        "image": "https://static.yakaboo.ua/media/catalog/product/_/-/_-_-_-_2.png",
+        "title": "Денніс І. Тейлор: Ми Легіон(Ми Боб)",
+        "price": "580 грн"
+    },
+   {
+        "image": "https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/6/8/685c04d50a438710080443.jpeg",
+        "title": "Деніел Краус: Падіння кита",
+        "price": "399 грн"
+    },
+
+    {
+        "image": "https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/i/m/image_2025-07-15_15-33-55.png",
+        "title": "Ноа Гоулі: За мить до падіння",
+        "price": "320 грн"
+    },
+
+    {
+        "image": "https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/i/m/img072_190.jpg",
+        "title": "Трейсі Сьєрра: Нічний споглядач",
+        "price": "330 грн"
+    },
+
+    {
+        "image": "https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/1/9/193cac76b5ca40e2b99bd78d4387af06.jpeg",
+        "title": "Леслі Вулф: Хірургиня",
+        "price": "399 грн"
+    },
+
+    {
+        "image": "https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/1/_/1_1802.jpg",
+        "title": "Фріда Макфадден: Ніколи не бреши",
+        "price": "340 грн"
+    },
+
+    {
+        "image": "https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/b/u/budinok-front_cr.jpg",
+        "title": "Карен Уайт: Будинок на вулиці Тредд",
+        "price": "260 грн"
     }
 ]
