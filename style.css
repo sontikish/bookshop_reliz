@@ -1,3 +1,14 @@
+body {
+  background-color: #FFDE94;
+}
+
+.playfair-display-uniquifier {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* або 500, 600, 700… */
+  font-style: normal;
+}
+
 header {
   background-color: #781D42; /* change to any color you like */
   color: white;
@@ -5,8 +16,8 @@ header {
 
 .intro {
   background-image: url('vintage-and-antique-leather-bound-books1.jpg'); /* Replace with your image path */
-  background-size: cover; /* Makes image fill the section */
-  background-position: center; /* Centers the image */
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 100vh; /* Full screen height */
   display: flex;
@@ -41,6 +52,15 @@ header {
 }
 
 
+.products-list {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
 .navbar {
       background-color: #7a0d3c;
     }
@@ -70,3 +90,20 @@ header {
     .navbar-nav .nav-item {
       margin-left: 15px;
     }
+
+footer .logo {
+  width: 200px; /* 👈 робиш менше */
+  height: auto;
+}
+
+footer {
+  background: #781D42;
+  padding: 20px;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center; /* Вирівнює картинку і текст по центру по вертикалі */
+  gap: 20px; /* Відступ між картинкою і текстом */
+}
