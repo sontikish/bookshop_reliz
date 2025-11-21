@@ -2,6 +2,12 @@
 <html lang="uk">
 <head>
 <!-- Голова: опис сторінки та підключення стилів -->
+
+<body class="playfair-display-uniquifier">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Назва сторінки</title>
@@ -64,12 +70,18 @@ crossorigin="anonymous">
 </main>
 
 <footer>
-<img src = 'logo.png'><h1>The bind</h1>
+  <div class="footer-content">
+    <img src="logo.png" class="logo">
 
-<h2>@gmail.com</h2>
-<h2>+380 (00) 000 00 00</h2>
-<h2>inst</h2>
+    <div class="footer-text">
+      <h5>Електронна пошта: the_bind_production@gmail.com</h5>
+      <h5>Номер телефону: +380 (00) 000 00 00</h5>
+      <h5>Інстаграм: theBind_00</h5>
+    </div>
+  </div>
 </footer>
+
+
 
 <!-- Підключення JS-файлу Bootstrap-->
 <script
