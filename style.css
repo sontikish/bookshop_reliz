@@ -5,30 +5,51 @@ body {
 .playfair-display-uniquifier {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: 600; /* або 500, 600, 700… */
+  font-weight: 600;
+  /* або 500, 600, 700… */
   font-style: normal;
 }
 
 header {
-  background-color: #781D42; /* change to any color you like */
+  background-color: #781D42;
+  /* change to any color you like */
   color: white;
 }
 
+/* Обов'язково — прибираємо відступи сторінки */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Інтро секція */
 .intro {
-  background-image: url('vintage-and-antique-leather-bound-books1.jpg'); /* Replace with your image path */
+  background-image: url('vintage-and-antique-leather-bound-books1.jpg');
   background-size: cover;
+  /* розтягує картинку */
   background-position: center;
+  /* центрує */
   background-repeat: no-repeat;
-  height: 100vh; /* Full screen height */
+  /* без повтору */
+  width: 100%;
+  /* повна ширина */
+  height: 100vh;
+  /* повна висота екрану */
+
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   color: white;
-  padding-left: 5%;
+  padding: 0;
+  /* щоб не зміщувалось */
 }
 
+
 .intro-text {
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: adds dark overlay */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Optional: adds dark overlay */
   padding: 20px 40px;
   border-radius: 10px;
 }
@@ -37,6 +58,24 @@ header {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
+
+.my-navbar {
+  background-color: #7a0d3c;
+}
+
+.my-navbar .navbar-text {
+  color: #ffffff;
+  /* колір тексту */
+  font-weight: 700;
+  /* жирний текст */
+  font-size: 1.3rem;
+  /* збільшений розмір */
+  text-align: center;
+  /* вирівнювання */
+  width: 100%;
+  /* щоб text-align працював */
+}
+
 
 .btn {
   background-color: #DE834D;
@@ -61,38 +100,48 @@ header {
 }
 
 
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
 .navbar {
-      background-color: #7a0d3c;
-    }
+  background-color: #7a0d3c;
+}
 
-    .navbar-brand,
-    .navbar-nav .nav-link {
-      color: #ffedc5 !important;
-      font-weight: 500;
-    }
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffedc5 !important;
+  font-weight: 500;
+}
 
-    .navbar-nav .nav-link:hover {
-      color: #ffffff !important;
-    }
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
 
-    .navbar .container-fluid {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: nowrap;
-    }
+.navbar .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
 
-    .navbar-nav {
-      flex-direction: row;
-    }
+.navbar-nav {
+  flex-direction: row;
+}
 
-    /* Optional: make links nicely spaced */
-    .navbar-nav .nav-item {
-      margin-left: 15px;
-    }
+/* Optional: make links nicely spaced */
+.navbar-nav .nav-item {
+  margin-left: 15px;
+}
 
 footer .logo {
-  width: 200px; /* 👈 робиш менше */
+  width: 200px;
+  /* 👈 робиш менше */
   height: auto;
 }
 
@@ -104,6 +153,8 @@ footer {
 
 .footer-content {
   display: flex;
-  align-items: center; /* Вирівнює картинку і текст по центру по вертикалі */
-  gap: 20px; /* Відступ між картинкою і текстом */
+  align-items: center;
+  /* Вирівнює картинку і текст по центру по вертикалі */
+  gap: 20px;
+  /* Відступ між картинкою і текстом */
 }

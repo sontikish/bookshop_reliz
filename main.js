@@ -41,12 +41,14 @@ function getCardHTML(product) {
 </div>`
 }
 
+
 class ShoppingCart {
     constructor() {
         
         this.items = {} // об’єкт з товарами у кошику
         this.total = 0  // загальна вартість замовлення
         this.loadCartFromCookies()
+        
     }
 
     addItem(item) { // Додавання товару до кошика 
