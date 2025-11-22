@@ -1,5 +1,5 @@
 body {
-  background-color: #FFDE94;
+  background-color: #ffde94;
 }
 
 .playfair-display-uniquifier {
@@ -11,8 +11,12 @@ body {
 }
 
 header {
+
   background-color: #781D42;
   /* change to any color you like */
+
+  background-color: #781d42; /* change to any color you like */
+
   color: white;
 }
 
@@ -26,7 +30,10 @@ html {
 
 /* Інтро секція */
 .intro {
+
   background-image: url('vintage-and-antique-leather-bound-books1.jpg');
+
+ 
   background-size: cover;
   /* розтягує картинку */
   background-position: center;
@@ -59,26 +66,10 @@ html {
   margin-bottom: 20px;
 }
 
-.my-navbar {
-  background-color: #7a0d3c;
-}
-
-.my-navbar .navbar-text {
-  color: #ffffff;
-  /* колір тексту */
-  font-weight: 700;
-  /* жирний текст */
-  font-size: 1.3rem;
-  /* збільшений розмір */
-  text-align: center;
-  /* вирівнювання */
-  width: 100%;
-  /* щоб text-align працював */
-}
-
-
-.btn {
-  background-color: #DE834D;
+.btn,
+.cart-btn,
+.confirm-order-btn {
+  background-color: #de834d;
   color: white;
   padding: 10px 20px;
   border-radius: 8px;
@@ -90,7 +81,6 @@ html {
   background-color: #f59056;
 }
 
-
 .products-list {
   padding: 20px;
   display: flex;
@@ -98,7 +88,6 @@ html {
   gap: 20px;
   flex-wrap: wrap;
 }
-
 
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -146,15 +135,25 @@ footer .logo {
 }
 
 footer {
-  background: #781D42;
+  background: #781d42;
   padding: 20px;
   color: white;
 }
 
 .footer-content {
   display: flex;
+
   align-items: center;
   /* Вирівнює картинку і текст по центру по вертикалі */
   gap: 20px;
   /* Відступ між картинкою і текстом */
+}
+
+/*
+  align-items: center; /* Вирівнює картинку і текст по центру по вертикалі */
+  gap: 20px; /* Відступ між картинкою і текстом */
+}
+
+.order {
+  display: none;
 }
