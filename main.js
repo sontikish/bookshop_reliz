@@ -39,56 +39,8 @@ function getCardHTML(product) {
 </div>`;
 }
 
-<<<<<<< HEAD
 
-class ShoppingCart {
-    constructor() {
-        
-        this.items = {} // об’єкт з товарами у кошику
-        this.total = 0  // загальна вартість замовлення
-        this.loadCartFromCookies()
-        
-    }
 
-    addItem(item) { // Додавання товару до кошика 
-        if(this.items[item.title]){
-            this.items[item.title].quantity += 1
-        }  else{
-            this.items[item.title]=item
-            this.items[item.title].quantity = 1
-        }
-    }  
-    	
-    saveCartToCookies() { // збереження кошика у кукі
-        let cartJSON = JSON.stringify(this.items);
-        document.cookie = `cart=${cartJSON}; max-age=${60 * 60 * 24 * 7}; path=/`;
-    }
-
-    loadCartFromCookies() { // Завантаження кошика з кукі
-                let cartCookie = getCookieValue('cart');
-        if (cartCookie && cartCookie !== '') {
-            this.items = JSON.parse(cartCookie);
-    }
-}
-}
-
-let cart = new ShoppingCart() // Створення об'єкта кошика
-
-function addToCard(event) {
-    // Отримуємо дані про товар з data-атрибута кнопки
-    const productData = event.target.getAttribute('data-product')
-    const product = JSON.parse(productData) // перетворюємо JSON у об’єкт 
-    // Тут будемо додавати товар до кошика
-    cart.addItem(product);
-}
-
-// Викликаємо асинхронну функцію та очікуємо на отримання продуктів
-getProducts().then(function (products) {
-    let productsList = document.querySelector('.products-list')
-    if (productsList) {
-        products.forEach(function (product) {
-=======
->>>>>>> f8fca00b3672cd7c9ac9438afc2e1885fe1d6894
 // Відображаємо товари на сторінці
 getProducts().then(function (products) {
   let productsList = document.querySelector(".products-list");
