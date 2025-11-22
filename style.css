@@ -66,6 +66,19 @@ html {
   margin-bottom: 20px;
 }
 
+.my-navbar {
+  background-color: #7a0d3c;
+}
+
+.my-navbar .navbar-text {
+  color: #ffffff;       /* колір тексту */
+  font-weight: 700;     /* жирний текст */
+  font-size: 1.3rem;    /* збільшений розмір */
+  text-align: center;   /* вирівнювання */
+  width: 100%;          /* щоб text-align працював */
+}
+
+
 .btn,
 .cart-btn,
 .confirm-order-btn {
